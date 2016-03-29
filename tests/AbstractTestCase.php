@@ -32,4 +32,10 @@ abstract class AbstractTestCase extends AbstractPackageTestCase
     {
         return AlertServiceProvider::class;
     }
+
+    protected function assertFlash($message, $style)
+    {
+        $this->assertSame($message, $this->app->session->get('alert.message'));
+        $this->assertSame($style, $this->app->session->get('alert.style'));
+    }
 }

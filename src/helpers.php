@@ -14,11 +14,11 @@ if (!function_exists('alert')) {
      * Flash an alert.
      *
      * @param string|null $message
-     * @param string|null $type
+     * @param string|null $style
      *
      * @return \Vinkla\Alert\Alert
      */
-    function alert($message = null, $type = 'info')
+    function alert($message = null, $style = 'info')
     {
         $alert = app('alert');
 
@@ -26,6 +26,6 @@ if (!function_exists('alert')) {
             return $alert;
         }
 
-        return $alert->flash($message, $type);
+        return $alert->flash($message, $style);
     }
 }

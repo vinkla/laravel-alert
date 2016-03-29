@@ -56,4 +56,16 @@ class AlertServiceProvider extends ServiceProvider
 
         $this->app->alias('alert', Alert::class);
     }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return string[]
+     */
+    public function provides()
+    {
+        return [
+            'alert',
+        ];
+    }
 }
