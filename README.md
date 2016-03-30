@@ -1,10 +1,12 @@
 Laravel Alert
 =============
 
+![alert](https://cloud.githubusercontent.com/assets/499192/14135442/b644c34c-f65d-11e5-9a65-528fe1ef84a8.jpg)
+
 Laravel alert is a [Bootstrap](http://getbootstrap.com/) alert helper for Laravel and Lumen.
 
 ```php
-// Flash alert messages. 
+// Flash alert messages.
 alert()->success('I hope I didn\'t brain my damage.');
 
 // Use the facade.
