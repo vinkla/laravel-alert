@@ -41,7 +41,7 @@ If you want you can use the [facade](http://laravel.com/docs/facades). Add the r
 'Alert' => Vinkla\Alert\Facades\Alert::class
 ```
 
-Include the alert view within your view templates.
+Include the alert view within your view templates with blade.
 
 ```php
 @include('alert::alert')
