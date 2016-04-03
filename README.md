@@ -98,6 +98,17 @@ class Foo
 App::make('Foo')->bar('I see the light... it burns!');
 ```
 
+There is also a helper function if that is what you prefer.
+
+```php
+// Use the methods.
+alert()->error('I feel like such a tool.');
+
+// The alert function accepts message and style.
+alert('Marge, can I go out and play?', 'info');
+```
+
+
 ## License
 
 Laravel Alert is licensed under [The MIT License (MIT)](LICENSE).
