@@ -16,7 +16,7 @@ Alert::info('Smithers, release the hounds.');
 $alert->warning('¡Ay, caramba!');
 ```
 
-[![Build Status](https://img.shields.io/travis/vinkla/alert/master.svg?style=flat)](https://travis-ci.org/vinkla/alert)
+[![Build Status](https://img.shields.io/travis/vinkla/laravel-alert/master.svg?style=flat)](https://travis-ci.org/vinkla/laravel-alert)
 [![StyleCI](https://styleci.io/repos/54970000/shield?style=flat)](https://styleci.io/repos/54970000)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/vinkla/alert.svg?style=flat)](https://scrutinizer-ci.com/g/vinkla/alert/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/vinkla/alert.svg?style=flat)](https://scrutinizer-ci.com/g/vinkla/alert)
