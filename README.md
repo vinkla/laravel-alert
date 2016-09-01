@@ -27,7 +27,7 @@ $alert->warning('¡Ay, caramba!');
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ```bash
-composer require vinkla/alert
+$ composer require vinkla/alert
 ```
 
 Add the service provider to `config/app.php` in the `providers` array.
