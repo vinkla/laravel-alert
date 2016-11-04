@@ -1,9 +1,8 @@
-Laravel Alert
-=============
+# Laravel Alert
 
 ![alert](https://cloud.githubusercontent.com/assets/499192/14135442/b644c34c-f65d-11e5-9a65-528fe1ef84a8.jpg)
 
-Laravel alert is a [Bootstrap](http://getbootstrap.com/) alert helper for Laravel and Lumen.
+> A [Bootstrap](http://getbootstrap.com/) alert helper for Laravel.
 
 ```php
 // Flash alert messages.
@@ -18,12 +17,12 @@ $alert->warning('¡Ay, caramba!');
 
 [![Build Status](https://img.shields.io/travis/vinkla/laravel-alert/master.svg?style=flat)](https://travis-ci.org/vinkla/laravel-alert)
 [![StyleCI](https://styleci.io/repos/54970000/shield?style=flat)](https://styleci.io/repos/54970000)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/vinkla/alert.svg?style=flat)](https://scrutinizer-ci.com/g/vinkla/alert/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/vinkla/alert.svg?style=flat)](https://scrutinizer-ci.com/g/vinkla/alert)
+[![Coverage Status](https://img.shields.io/codecov/c/github/vinkla/laravel-alert.svg?style=flat)](https://codecov.io/github/vinkla/laravel-alert)
 [![Latest Version](https://img.shields.io/github/release/vinkla/alert.svg?style=flat)](https://github.com/vinkla/alert/releases)
 [![License](https://img.shields.io/packagist/l/vinkla/alert.svg?style=flat)](https://packagist.org/packages/vinkla/alert)
 
 ## Installation
+
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ```bash
@@ -109,7 +108,6 @@ alert()->error('I feel like such a tool.');
 alert('Marge, can I go out and play?', 'info');
 ```
 
-
 ## License
 
-Laravel Alert is licensed under [The MIT License (MIT)](LICENSE).
+[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)

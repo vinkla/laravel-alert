@@ -1,6 +1,6 @@
 {
     "name": "vinkla/alert",
-    "description": "An alert helper for Laravel",
+    "description": "A Bootstrap alert helper for Laravel",
     "license": "MIT",
     "keywords": ["laravel", "bootstrap", "alert", "flash"],
     "authors": [
@@ -12,14 +12,14 @@
     ],
     "require": {
         "php": "^5.6.4 || ^7.0",
-        "illuminate/contracts": "5.1.* || 5.2.* || 5.3.*",
-        "illuminate/session": "5.1.* || 5.2.* || 5.3.*",
-        "illuminate/support": "5.1.* || 5.2.* || 5.3.*"
+        "illuminate/contracts": "5.2.* || 5.3.*",
+        "illuminate/session": "5.2.* || 5.3.*",
+        "illuminate/support": "5.2.* || 5.3.*"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.2",
         "mockery/mockery": "^0.9.5",
-        "phpunit/phpunit": "^5.4"
+        "phpunit/phpunit": "^5.6"
     },
     "autoload": {
         "psr-4": {
