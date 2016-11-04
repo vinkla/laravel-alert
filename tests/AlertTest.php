@@ -28,7 +28,7 @@ class AlertTest extends AbstractTestCase
         $this->assertFlash('bart', 'info');
     }
 
-    public function tesError()
+    public function testError()
     {
         $alert = $this->getAlert();
 
