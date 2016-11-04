@@ -33,7 +33,7 @@ class AlertTest extends AbstractTestCase
         $alert = $this->getAlert();
 
         $alert->error('maggie');
-        $this->assertFlash('maggie', 'error');
+        $this->assertFlash('maggie', 'danger');
     }
 
     public function testDanger()
