@@ -9,6 +9,10 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types=1);
+
+use Vinkla\Alert\Alert;
+
 if (!function_exists('alert')) {
     /**
      * Flash an alert.
@@ -18,7 +22,7 @@ if (!function_exists('alert')) {
      *
      * @return \Vinkla\Alert\Alert
      */
-    function alert($message = null, $style = 'info')
+    function alert($message = null, $style = 'info'): Alert
     {
         $alert = app('alert');
 

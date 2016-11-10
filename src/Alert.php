@@ -9,6 +9,8 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types=1);
+
 namespace Vinkla\Alert;
 
 use Illuminate\Session\Store;
@@ -47,7 +49,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function flash($message, $style = 'info')
+    public function flash(string $message, string $style = 'info'): Alert
     {
         $this->session->flash('alert.message', $message);
         $this->session->flash('alert.style', $style);
@@ -62,7 +64,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function danger($message)
+    public function danger(string $message): Alert
     {
         return $this->flash($message, 'danger');
     }
@@ -74,7 +76,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function error($message)
+    public function error(string $message): Alert
     {
         return $this->flash($message, 'danger');
     }
@@ -86,7 +88,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function info($message)
+    public function info(string $message): Alert
     {
         return $this->flash($message, 'info');
     }
@@ -98,7 +100,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function success($message)
+    public function success(string $message): Alert
     {
         return $this->flash($message, 'success');
     }
@@ -110,7 +112,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function warning($message)
+    public function warning(string $message): Alert
     {
         return $this->flash($message, 'warning');
     }
