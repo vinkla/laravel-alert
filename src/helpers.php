@@ -22,7 +22,7 @@ if (!function_exists('alert')) {
      *
      * @return \Vinkla\Alert\Alert
      */
-    function alert($message = null, $style = 'info'): Alert
+    function alert(string $message = null, string $style = 'info'): Alert
     {
         $alert = app('alert');
 

@@ -18,7 +18,7 @@ use Vinkla\Alert\Alert;
 /**
  * This is the alert test class.
  *
- * @author Vincent Klaiber <vincent@hoy.se>
+ * @author Vincent Klaiber <hello@vinkla.com>
  */
 class AlertTest extends AbstractTestCase
 {

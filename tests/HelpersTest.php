@@ -18,7 +18,7 @@ use Vinkla\Alert\Alert;
 /**
  * This is the helpers test class.
  *
- * @author Vincent Klaiber <vincent@hoy.se>
+ * @author Vincent Klaiber <hello@vinkla.com>
  */
 class HelpersTest extends AbstractTestCase
 {

@@ -18,7 +18,7 @@ use Illuminate\Session\Store;
 /**
  * This is the alert class.
  *
- * @author Vincent Klaiber <vincent@hoy.se>
+ * @author Vincent Klaiber <hello@vinkla.com>
  */
 class Alert
 {
