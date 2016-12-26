@@ -1,6 +1,6 @@
 # Laravel Alert
 
-![alert](https://cloud.githubusercontent.com/assets/499192/14135442/b644c34c-f65d-11e5-9a65-528fe1ef84a8.jpg)
+![alert](https://cloud.githubusercontent.com/assets/499192/21473378/955e1252-cb08-11e6-80d3-b117e14e5b7c.png)
 
 > A [Bootstrap](http://getbootstrap.com/) alert helper for Laravel.
 
