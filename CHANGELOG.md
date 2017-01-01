@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.4.0 (released 2017-01-01)
+
+- Added laravel 5.4 support
+
 ## 1.3.0 (released 2016-11-10)
 
 - Dropped php 5.6 support
