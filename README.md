@@ -44,7 +44,7 @@ If you want you can use the [facade](http://laravel.com/docs/facades). Add the r
 Include the alert view within your view templates with blade.
 
 ```php
-@include('alert::alert')
+@include('alert::bootstrap')
 ```
 
 ## Usage

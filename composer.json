@@ -12,9 +12,9 @@
     ],
     "require": {
         "php": "^7.0",
-        "illuminate/contracts": "5.3.* || 5.4.*",
-        "illuminate/session": "5.3.* || 5.4.*",
-        "illuminate/support": "5.3.* || 5.4.*"
+        "illuminate/contracts": "5.4.*",
+        "illuminate/session": "5.4.*",
+        "illuminate/support": "5.4.*"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.3",

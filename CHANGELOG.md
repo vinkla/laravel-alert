@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.0.0 (released 2017-02-07)
+
+- Added bootstrap 4.0 support
+- Update view file name
+- Drop laravel 5.3 support
+
 ## 1.4.0 (released 2017-01-01)
 
 - Added laravel 5.4 support
