@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.1 (released 2017-02-25)
+
+- Add bootstrap 3.0 support
+
 ## 2.0.0 (released 2017-02-07)
 
 - Added bootstrap 4.0 support
