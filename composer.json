@@ -40,6 +40,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "2.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Vinkla\\Alert\\AlertServiceProvider"
+            ],
+            "aliases": {
+                "Alert": "Vinkla\\Alert\\Facades\\Alert"
+            }
         }
     },
     "minimum-stability": "dev",
