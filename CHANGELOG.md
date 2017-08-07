@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.1.0 (released 2017-08-07)
+
+- Added laravel 5.5 support
+
 ## 2.0.1 (released 2017-02-25)
 
 - Add bootstrap 3.0 support
