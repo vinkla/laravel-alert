@@ -82,17 +82,17 @@ use Vinkla\Alert\Alert;
 
 class Foo
 {
-	protected $alert;
+    protected $alert;
 
-	public function __construct(Alert $alert)
-	{
-		$this->alert = $alert;
-	}
+    public function __construct(Alert $alert)
+    {
+        $this->alert = $alert;
+    }
 
-	public function bar($message)
-	{
-		$this->alert->warning($message)
-	}
+    public function bar($message)
+    {
+        $this->alert->warning($message)
+    }
 }
 
 App::make('Foo')->bar('I see the light... it burns!');
