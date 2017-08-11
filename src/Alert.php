@@ -78,7 +78,7 @@ class Alert
      */
     public function error(string $message): Alert
     {
-        return $this->flash($message, 'danger');
+        return $this->danger($message);
     }
 
     /**
