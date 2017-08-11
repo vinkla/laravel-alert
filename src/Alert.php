@@ -82,7 +82,7 @@ class Alert
     }
 
     /**
-     * Flash a info alert.
+     * Flash an info alert.
      *
      * @param string $message
      *
