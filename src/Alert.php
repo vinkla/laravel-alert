@@ -49,10 +49,16 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function flash(string $message, string $style = 'info'): Alert
+    public function flash(string $message, string $style = 'info', $fade = false): Alert
     {
-        $this->session->flash('alert.message', $message);
-        $this->session->flash('alert.style', $style);
+        if($this->session->has('alert.message')){
+            $messageArray = json_decode($this->session->get('alert.message'));
+            $messageArray[] = array('message' => $message, 'style' => $style, 'fade' => (($fade == true) ? 'fade-alert' : ''));
+        }else{
+            $messageArray[] = array('message' => $message, 'style' => $style, 'fade' => (($fade == true) ? 'fade-alert' : ''));
+        }
+        $messageArray = json_encode($messageArray);
+        $this->session->flash('alert.message', $messageArray);
 
         return $this;
     }
@@ -64,9 +70,9 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function danger(string $message): Alert
+    public function danger(string $message, $fade = false): Alert
     {
-        return $this->flash($message, 'danger');
+        return $this->flash($message, 'danger', $fade);
     }
 
     /**
@@ -76,9 +82,9 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function error(string $message): Alert
+    public function error(string $message, $fade = false): Alert
     {
-        return $this->danger($message);
+        return $this->danger($message, $fade);
     }
 
     /**
@@ -88,9 +94,9 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function info(string $message): Alert
+    public function info(string $message, $fade = false): Alert
     {
-        return $this->flash($message, 'info');
+        return $this->flash($message, 'info', $fade);
     }
 
     /**
@@ -100,9 +106,9 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function success(string $message): Alert
+    public function success(string $message, $fade = false): Alert
     {
-        return $this->flash($message, 'success');
+        return $this->flash($message, 'success', $fade);
     }
 
     /**
@@ -112,8 +118,8 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function warning(string $message): Alert
+    public function warning(string $message, $fade = false): Alert
     {
-        return $this->flash($message, 'warning');
+        return $this->flash($message, 'warning', $fade);
     }
 }
