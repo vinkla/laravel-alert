@@ -49,7 +49,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function flash(string $message, string $style = 'info'): Alert
+    public function flash(string $message, string $style = 'info'): self
     {
         $this->session->flash('alert.message', $message);
         $this->session->flash('alert.style', $style);
@@ -64,7 +64,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function danger(string $message): Alert
+    public function danger(string $message): self
     {
         return $this->flash($message, 'danger');
     }
@@ -76,7 +76,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function error(string $message): Alert
+    public function error(string $message): self
     {
         return $this->danger($message);
     }
@@ -88,7 +88,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function info(string $message): Alert
+    public function info(string $message): self
     {
         return $this->flash($message, 'info');
     }
@@ -100,7 +100,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function success(string $message): Alert
+    public function success(string $message): self
     {
         return $this->flash($message, 'success');
     }
@@ -112,7 +112,7 @@ class Alert
      *
      * @return \Vinkla\Alert\Alert
      */
-    public function warning(string $message): Alert
+    public function warning(string $message): self
     {
         return $this->flash($message, 'warning');
     }
