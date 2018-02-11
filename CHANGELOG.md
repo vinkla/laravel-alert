@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 3.0.0 (released 2018-02-11)
+
+- Added Laravel 5.6 support
+- Added void return types
+- Fixed config when inside phar
+- Removed Laravel 5.5 support
+- Removed PHP 7.0 support
+
 ## 2.2.0 (released 2017-09-02)
 
 - Removed laravel 5.3 and 5.4 support
