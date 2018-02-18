@@ -18,6 +18,7 @@ $alert->warning('¡Ay, caramba!');
 [![Build Status](https://img.shields.io/travis/vinkla/laravel-alert/master.svg?style=flat)](https://travis-ci.org/vinkla/laravel-alert)
 [![StyleCI](https://styleci.io/repos/54970000/shield?style=flat)](https://styleci.io/repos/54970000)
 [![Coverage Status](https://img.shields.io/codecov/c/github/vinkla/laravel-alert.svg?style=flat)](https://codecov.io/github/vinkla/laravel-alert)
+[![Total Downloads](https://img.shields.io/packagist/dt/vinkla/alert.svg?style=flat)](https://packagist.org/packages/vinkla/alert)
 [![Latest Version](https://img.shields.io/github/release/vinkla/alert.svg?style=flat)](https://github.com/vinkla/alert/releases)
 [![License](https://img.shields.io/packagist/l/vinkla/alert.svg?style=flat)](https://packagist.org/packages/vinkla/alert)
 
