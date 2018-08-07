@@ -15,12 +15,11 @@ Alert::info('Smithers, release the hounds.');
 $alert->warning('¡Ay, caramba!');
 ```
 
-[![Build Status](https://img.shields.io/travis/vinkla/laravel-alert/master.svg?style=flat)](https://travis-ci.org/vinkla/laravel-alert)
-[![StyleCI](https://styleci.io/repos/54970000/shield?style=flat)](https://styleci.io/repos/54970000)
-[![Coverage Status](https://img.shields.io/codecov/c/github/vinkla/laravel-alert.svg?style=flat)](https://codecov.io/github/vinkla/laravel-alert)
-[![Total Downloads](https://img.shields.io/packagist/dt/vinkla/alert.svg?style=flat)](https://packagist.org/packages/vinkla/alert)
-[![Latest Version](https://img.shields.io/github/release/vinkla/alert.svg?style=flat)](https://github.com/vinkla/alert/releases)
-[![License](https://img.shields.io/packagist/l/vinkla/alert.svg?style=flat)](https://packagist.org/packages/vinkla/alert)
+[![Build Status](https://badgen.net/travis/vinkla/laravel-alert/master)](https://travis-ci.org/vinkla/laravel-alert)
+[![Coverage Status](https://badgen.net/codecov/c/github/vinkla/laravel-alert)](https://codecov.io/github/vinkla/laravel-alert)
+[![Total Downloads](https://badgen.net/packagist/dt/vinkla/alert)](https://packagist.org/packages/vinkla/alert)
+[![Latest Version](https://badgen.net/github/release/vinkla/alert)](https://github.com/vinkla/alert/releases)
+[![License](https://badgen.net/packagist/license/vinkla/alert)](https://packagist.org/packages/vinkla/alert)
 
 ## Installation
 
